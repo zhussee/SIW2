@@ -1,0 +1,38 @@
+#board {
+  height: 540px;
+  width: 630px;
+  background-color: #f5e1bf;
+  border: 10px solid #d4a752;
+  
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+h2{
+    font-weight: bolt;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#game{
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.tile {
+  height: 70px;
+  width: 70px;
+  margin: 5px;
+
+  /* Circle */
+  background-color: white;
+  border-radius: 50%;
+  border: 5px solid #d4a752;
+}
+
+.red-piece {
+  background-color: red;
+}
+
+.yellow-piece {
+  background-color: yellow;
+}
